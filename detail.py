@@ -1,5 +1,5 @@
-from PySide2.QtCore import(Property, QObject, QPropertyAnimation, Signal)
-from PySide2.QtWidgets import *
+from PyQt5.QtCore import(QObject, QPropertyAnimation)
+from PyQt5.QtWidgets import *
 
 class ObjectDetail(QVBoxLayout):
     def __init__(self):

@@ -1,12 +1,9 @@
 #!python3
 
 import sys
-from PySide2.QtCore import(Property, QObject, QPropertyAnimation, Signal)
-from PySide2.QtGui import (QGuiApplication, QMatrix4x4, QQuaternion, QVector3D, QColor)
-from PySide2.Qt3DCore import (Qt3DCore)
-from PySide2.Qt3DExtras import (Qt3DExtras)
-from PySide2.Qt3DRender import (Qt3DRender)
-from PySide2.QtWidgets import *
+from PyQt5.QtCore import(QObject, QPropertyAnimation)
+from PyQt5.QtGui import (QGuiApplication, QMatrix4x4, QQuaternion, QVector3D, QColor)
+from PyQt5.QtWidgets import *
 
 from detail import ObjectDetail
 from treeview import TreeView

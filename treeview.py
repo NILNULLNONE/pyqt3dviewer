@@ -1,5 +1,5 @@
-from PySide2.QtCore import(Property, QObject, QPropertyAnimation, Signal, Qt)
-from PySide2.QtWidgets import *
+from PyQt5.QtCore import(QObject, QPropertyAnimation, Qt)
+from PyQt5.QtWidgets import *
 
 class TreeView(QTreeWidget):
     def __init__(self):

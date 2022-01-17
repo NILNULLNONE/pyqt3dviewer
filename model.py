@@ -1,8 +1,8 @@
-from PySide2.QtCore import QObject, Qt, QUrl
-from PySide2.Qt3DCore import Qt3DCore
-from PySide2.Qt3DExtras import Qt3DExtras
-from PySide2.Qt3DRender import (Qt3DRender)
-from PySide2.QtGui import QMatrix4x4, QQuaternion, QVector3D, QColor
+from PyQt5.QtCore import QObject, Qt, QUrl
+from PyQt5 import Qt3DCore
+from PyQt5 import Qt3DExtras
+from PyQt5 import Qt3DRender
+from PyQt5.QtGui import QMatrix4x4, QQuaternion, QVector3D, QColor
 import os
 import json
 

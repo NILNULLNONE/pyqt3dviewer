@@ -1,9 +1,9 @@
-from PySide2.QtCore import(Property, QObject, QPropertyAnimation, Signal, Qt)
-from PySide2.QtGui import (QGuiApplication, QMatrix4x4, QQuaternion, QVector3D, QColor)
-from PySide2.Qt3DCore import (Qt3DCore)
-from PySide2.Qt3DExtras import (Qt3DExtras)
-from PySide2.Qt3DRender import (Qt3DRender)
-from PySide2.QtWidgets import *
+from PyQt5.QtCore import(QObject, QPropertyAnimation, Qt)
+from PyQt5.QtGui import (QGuiApplication, QMatrix4x4, QQuaternion, QVector3D, QColor)
+from PyQt5 import (Qt3DCore)
+from PyQt5 import (Qt3DExtras)
+from PyQt5 import (Qt3DRender)
+from PyQt5.QtWidgets import *
 import math
 from model import BindingEntity
 
